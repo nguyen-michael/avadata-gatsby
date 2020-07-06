@@ -1,14 +1,16 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
-// Kaldi logo brand color: #FD461E
+// Avadata logo brand color: #FD461E
+// Avadata Palette: 131A21, 162B5B, 0757A5, 3F90D5, ECEDDC
+// https://coolors.co/131a21-162b5b-0757a5-3f90d5-eceddc
 $avadata-blue: #0757A5
-$avadata-blue-invert: #fff
+$avadata-blue-invert: #F8F8F2
 
 $primary: $avadata-blue
 $primary-invert: $avadata-blue-invert
-$body-color: #333
-$black: #2b2523
+$body-color: #162B5B
+$black: #161F27
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -61,10 +63,10 @@ $black: #2b2523
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: $primary
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px $primary
+    box-shadow: inset 0 0 0 2px $primary
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -78,6 +80,7 @@ $black: #2b2523
   width: 1.5rem
   height: 1.5rem
   fill: currentColor
+
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
@@ -114,7 +117,7 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #F8F8F2;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
