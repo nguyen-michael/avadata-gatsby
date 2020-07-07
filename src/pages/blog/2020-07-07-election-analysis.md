@@ -8,7 +8,11 @@ description: In the challenge section of this module, we were tasked with
 featuredpost: false
 featuredimage: /img/avadata-logo-idea.png
 tags:
-  - math statistics excel python voter-turnout
+  - math
+  - statistics
+  - excel
+  - python
+  - voter-turnout
 ---
 ## Project Overview
 
