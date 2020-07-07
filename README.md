@@ -1,1 +1,1 @@
-(repo for Avadata Solutions site built on gatsby)
+(repo for AvaData Solutions site built on gatsby)

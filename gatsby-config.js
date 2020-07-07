@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Avadata Solutions',
+    title: 'AvaData Solutions',
     description:
       'Business Data Analytics Consulting Group. Your data, simplified.',
   },

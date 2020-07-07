@@ -1,8 +1,8 @@
 {
   "name": "avadata-solutions",
-  "description": "Avadata Solutions",
+  "description": "AvaData Solutions",
   "version": "1.0.0",
-  "author": "Avadata Solutions",
+  "author": "AvaData Solutions",
   "dependencies": {
     "bulma": "^0.9.0",
     "gatsby": "^2.20.35",

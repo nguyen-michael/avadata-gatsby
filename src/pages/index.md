@@ -1,16 +1,15 @@
 ---
 templateKey: index-page
-title: Your data, Simplified.
+title: Your Data, Simplified
 image: /img/home-jumbotron.jpg
-heading: Your data, Simplified
-subheading: Business data analytics consulting for the modern era.
+heading: Your Data, Simplified
+subheading: Custom data-driven solutions designed for <em>you</em>.
 mainpitch:
-  title: Why Avadata Solutions
+  title: Why Choose AvaData Solutions?
   description: >
-    (MAIN PITCH DESCRIPTION) Avadata solutions is the consulting firm for the modern-era. Ruthlessly flexible and effective, 
-    our Texas-bred team will wrangle your data into manageable metrics, graphs and reports.
+    AvaData Solutions is wholly committed to understanding <em>your</em> business and it's unique challenges. We'll work with you every step of the way to design, organize, clean, and create visualizations of your data. Our custom-built data pipelines cater to your company's specific needs, and we work with you to extract meaningful insights that will help grow and manage your business.
 description: >-
-  (GENERAL DESCRIPTION OF AVADATA SOLUTIONS)
+  At AvaData, we believe that the solution to your business' challenges lies in data that already exists -- it just needs to be brought to light and presented in an understandable way. 
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -27,7 +26,7 @@ intro:
         All of our consultations come with free bicycle build consultation, up to 20 minutes.
   heading: What we offer
   description: >
-    (INTRODUCTORY DESCRIPTION) Avadata solutions is the consulting firm for the modern-era. Ruthlessly flexible and effective, 
+    (INTRODUCTORY DESCRIPTION) AvaData Solutions is the consulting firm for the modern-era. Ruthlessly flexible and effective, 
     our Texas-bred team will wrangle your data into manageable metrics, graphs and reports.
 main:
   heading: (PRODUCT PAGE HEADING)
