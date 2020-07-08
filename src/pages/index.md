@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Your Data, Simplified
-image: /img/home-jumbotron.jpg
+image: /img/jumbotron-index.jpg
 heading: Your Data, Simplified
 subheading: Custom data-driven solutions designed for <em>you</em>.
 mainpitch:
@@ -12,16 +12,16 @@ description: >-
   At AvaData, we believe that the solution to your business' challenges lies in data that already exists -- it just needs to be brought to light and presented in an understandable way. 
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/elucidation.png
       text: >
         Our PowerBI skills are renowned in all 8 continents.
-    - image: /img/coffee-gear.png
+    - image: /img/analytic-tooling.png
       text: >
         We use the latest tooling in the Analytics world, including slide rules, calculators and notepad.
-    - image: /img/coffee.png
+    - image: /img/concise.png
       text: >
         Our friendly consulting team will meet with you one-on-one to discuss your needs and how we can fit into your goals.
-    - image: /img/meeting-space.png
+    - image: /img/results.png
       text: >
         All of our consultations come with free bicycle build consultation, up to 20 minutes.
   heading: What we offer
