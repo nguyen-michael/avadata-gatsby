@@ -14,7 +14,7 @@ intro:
   blurbs:
     - image: /img/elucidation.png
       text: >
-        Our PowerBI skills are renowned in all 8 continents.
+        Our PowerBI skills are renowned in all 8 continents. There are more words.
     - image: /img/analytic-tooling.png
       text: >
         We use the latest tooling in the Analytics world, including slide rules, calculators and notepad.
