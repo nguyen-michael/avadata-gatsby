@@ -26,19 +26,5 @@ intro:
         All of our consultations come with free bicycle build consultation, up to 20 minutes.
   heading: What we offer
   description: >
-    (INTRODUCTORY DESCRIPTION) AvaData Solutions is the consulting firm for the modern-era. Ruthlessly flexible and effective, 
-    our Texas-bred team will wrangle your data into manageable metrics, graphs and reports.
-main:
-  heading: (PRODUCT PAGE HEADING)
-  description: >
-    (Product page description)
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    At AvaData, we believe that the solution to your business' challenges lies in data that already exists -- it just needs to be brought to light and presented in an understandable way.
 ---
