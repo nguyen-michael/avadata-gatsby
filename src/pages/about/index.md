@@ -2,9 +2,9 @@
 templateKey: about-page
 path: /about
 title: Who We Are
-image: /img/jumbotron-about.jpg
+image: /img/jumbotron-about.webp
 profiles:
-  - image: /img/about-us-barbar.jpg
+  - image: /img/about-us-barbar.webp
     name: >
       Barbar LeFontaine
     title: >
@@ -15,7 +15,7 @@ profiles:
       Master of puppets, symphony of destruction, tornado of souls.
       Master of puppets, symphony of destruction, tornado of souls.
       Master of puppets, symphony of destruction, tornado of souls.
-  - image: /img/about-us-ferbo.jpg
+  - image: /img/about-us-ferbo.webp
     name: >
       Ferbo Babbage
     title: >

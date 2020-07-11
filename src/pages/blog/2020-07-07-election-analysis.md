@@ -6,7 +6,7 @@ description: In the challenge section of this module, we were tasked with
   breaking down the voter turnout by county, in addition to determining the
   votes by candidate, and the winner of the popular vote.
 featuredpost: false
-featuredimage: /img/avadata-logo-idea.png
+featuredimage: /img/avadata-logo-idea.webp
 tags:
   - math
   - statistics
@@ -68,4 +68,4 @@ Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)
 
 ### Largest County Turnout: 
-Denver
+Denver
