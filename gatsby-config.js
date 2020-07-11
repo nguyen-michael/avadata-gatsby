@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'AvaData Solutions',
+    title: `Custom data-driven Business Analytics | AvaData Solutions`,
     description:
-      'Business Data Analytics Consulting Group. Your data, simplified.',
+      `Business Data Analytics Consulting Group. Your data, simplified.`,
+    type: `business.business`,
+    image: `/img/og-image.jpg`,
+    url: ``
   },
   plugins: [
     'gatsby-plugin-react-helmet',
