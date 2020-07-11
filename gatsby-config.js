@@ -5,7 +5,7 @@ module.exports = {
       `Business Data Analytics Consulting Group. Your data, simplified.`,
     type: `business.business`,
     image: `/img/og-image.jpg`,
-    url: ``
+    url: `https://www.avadata.io`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
