@@ -104,7 +104,7 @@ collections:
                   {
                     label: "Description / Bio",
                     name: "description",
-                    widget: "string",
+                    widget: "text",
                   },
                 ],
             }
