@@ -1,15 +1,15 @@
 ---
 templateKey: index-page
-title: Your Data, Simplified
+title: Your Data — Simplified
 image: /img/jumbotron-index.webp
-heading: Your Data, Simplified
-subheading: Custom data-driven solutions designed for <em>you</em>.
+heading: Your Data — Simplified
+subheading: Custom data-driven solutions designed for <em>you</em>
 mainpitch:
   title: Why Choose AvaData Solutions?
   description: >
-    AvaData Solutions is wholly committed to understanding <em>your</em> business and it's unique challenges. We'll work with you every step of the way to design, organize, clean, and create visualizations of your data. Our custom-built data pipelines cater to your company's specific needs, and we work with you to extract meaningful insights that will help grow and manage your business.
+    AvaData Solutions is wholly committed to understanding <em>your</em> business and its unique challenges. We'll work with you every step of the way to design, organize, clean, and create visualizations of your data. Our custom-built data pipelines cater to your company's specific needs, and we work with you to extract meaningful insights that will help grow and manage your business.
 description: >-
-  At AvaData, we believe that the solution to your business' challenges lies in data that already exists -- it just needs to be brought to light and presented in an understandable way. 
+  At AvaData, we believe that the solution to your business' challenges lies in data that already exists — it just needs to be brought to light and presented in a digestible way. 
 intro:
   blurbs:
     - image: /img/elucidation.webp
@@ -26,5 +26,5 @@ intro:
         All of our consultations come with free bicycle build consultation, up to 20 minutes.
   heading: What we offer
   description: >
-    At AvaData, we believe that the solution to your business' challenges lies in data that already exists -- it just needs to be brought to light and presented in an understandable way.
+    At AvaData, we believe that the solution to your business' challenges lies in data that already exists — it just needs to be brought to light and presented in a digestible way.
 ---
