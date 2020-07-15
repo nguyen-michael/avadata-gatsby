@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Custom data-driven Business Analytics | AvaData Solutions`,
+    title: `AvaData Solutions, Inc.`,
     description:
       `Business Data Analytics Consulting Group. Your data, simplified.`,
     type: `business.business`,
