@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/logo.svg";
+import logo from "../img/logo-extended.svg";
 
 const Footer = class extends React.Component {
   render() {
@@ -11,7 +11,7 @@ const Footer = class extends React.Component {
           <img
             src={logo}
             alt="AvaData Solutions"
-            style={{ width: "20em", height: "10em" }}
+            style={{ width: "29em", height: "10em" }}
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
