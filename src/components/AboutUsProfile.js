@@ -11,12 +11,12 @@ const AboutUsProfile = ({ profile }) => (
     </div>
     <div className="column is-8">
       <header className="has-text-centered">
-        <p className="has-text-primary is-size-4 has-text-weight-semibold">
+        <h3 className="has-text-primary is-size-3 has-text-weight-semibold">
           {profile.name}
-        </p>
-        <p>
+        </h3>
+        <h4>
           <em>{profile.title}</em>
-        </p>
+        </h4>
       </header>
       <p className="has-text-justified">{profile.description}</p>
     </div>

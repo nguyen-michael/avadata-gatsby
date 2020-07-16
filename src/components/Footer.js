@@ -8,11 +8,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="AvaData Solutions"
-            style={{ width: "29em", height: "10em" }}
-          />
+          <img src={logo} alt="AvaData Solutions" style={{ width: "40em" }} />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
