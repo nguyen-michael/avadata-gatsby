@@ -67,25 +67,28 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content has-text-centered">
                 <div className="content">
-                  <h1 className="title">{mainpitch.title}</h1>
+                  <h1 className="title is-size-2">{mainpitch.title}</h1>
+                  <br />
                   <p
                     className="subtitle has-text-weight-normal is-4"
                     dangerouslySetInnerHTML={{ __html: mainpitch.description }}
                   ></p>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
+                  <p className="subtitle has-text-weight-normal is-4">
+                    {description}
+                  </p>
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
                       Our Work →
+                    </Link>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/contact">
+                      Get In Touch With Us →
                     </Link>
                   </div>
                 </div>
@@ -165,6 +168,8 @@ export const pageQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
+              publicURL
+              extension
             }
             text
           }
