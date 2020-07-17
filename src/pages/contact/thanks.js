@@ -22,23 +22,16 @@ export default () => (
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen jumbotron-heading"
           style={{
-            boxShadow: "#0757A5 0.5rem 0px 0px, #0757A5 -0.5rem 0px 0px",
-            backgroundColor: "#0757A5",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em",
+            lineHeight: "1"
           }}
         >
           Thank you for your interest in AvaData Solutions!
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen jumbotron-heading"
           style={{
-            boxShadow: "#0757A5 0.5rem 0px 0px, #0757A5 -0.5rem 0px 0px",
-            backgroundColor: "#0757A5",
-            color: "white",
             lineHeight: "1",
             padding: "0.25em",
           }}

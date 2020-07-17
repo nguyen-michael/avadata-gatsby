@@ -16,13 +16,7 @@ export default class BlogIndexPage extends React.Component {
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1 has-text-centered"
-            style={{
-              boxShadow: '0.5rem 0 0 #0757A5, -0.5rem 0 0 #0757A5',
-              backgroundColor: '#0757A5',
-              color: 'white',
-              padding: '1rem',
-            }}
+            className="has-text-weight-bold is-size-1 has-text-centered jumbotron-heading"
           >
             Data and the World Around Us
           </h1>

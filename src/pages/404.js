@@ -23,13 +23,9 @@ const NotFoundPage = () => (
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered"
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered jumbotron-heading"
           style={{
-            boxShadow: "#0757A5 0.5rem 0px 0px, #0757A5 -0.5rem 0px 0px",
-            backgroundColor: "#0757A5",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em",
+            lineHeight: "1"
           }}
         >
           Sorry, that link doesn't exist.{" "}
