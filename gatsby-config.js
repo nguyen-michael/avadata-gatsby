@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `AvaData Solutions, Inc.`,
     description:
-      `Business Data Analytics Consulting Group. Your data, simplified.`,
+      `Business Data Analytics Consulting Group. Your Data — simplified.`,
     type: `business.business`,
-    image: `/img/og-image.jpg`,
+    image: `/img/og-image.png`,
     url: `https://www.avadata.io`
   },
   plugins: [
