@@ -8,24 +8,20 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   const { publicURL, extension } = image;
 
   if (!!image && !!image.childImageSharp) {
-    console.log("got here 1");
     return (
       <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
     );
   }
 
   if (!!childImageSharp) {
-    console.log("got here 2");
     return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />;
   }
 
   if (!!image && typeof image === "string") {
-    console.log("got here 3");
     return <img style={imageStyle} src={image} alt={alt} />;
   }
   // SVG Support
   if (!childImageSharp && extension === "svg") {
-    console.log("got here");
     return <img style={imageStyle} src={publicURL} alt={alt} />;
   }
   return null;

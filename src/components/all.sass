@@ -69,9 +69,17 @@ $family-sans-serif: 'Hind Siliguri', sans-serif
     align-items: center
 
 .jumbotron-heading
-  background-color: transparentize(#0757A5, 0.1)
+  background-color: transparentize($primary, 0.1)
   color: white
   padding: 1rem
+
+.attribution-btn
+  text-decoration: underline $primary dotted
+
+.attribution-btn:hover
+  color: $primary
+  transition-duration: 500ms
+  cursor: pointer
 
 .btn
     display: inline-block
