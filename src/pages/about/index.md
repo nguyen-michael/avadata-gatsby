@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-title: Who We Are
+title: The AvaData Team
 image: /img/jumbotron-about.webp
 profiles:
   - image: /img/about-us-barbar.webp

@@ -39,7 +39,7 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <div
-        className="full-width-image-container margin-top-0"
+        className="full-width-image-container margin-top-0 has-text-centered"
         style={{
           backgroundImage: `url(${
             !!post.frontmatter.image.childImageSharp
@@ -51,13 +51,7 @@ const AboutPage = ({ data }) => {
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-1"
-          style={{
-            boxShadow: "0.5rem 0 0 #0757A5, -0.5rem 0 0 #0757A5",
-            backgroundColor: "#0757A5",
-            color: "white",
-            padding: "1rem",
-          }}
+          className="has-text-weight-bold is-size-1 jumbotron-heading"
         >
           {post.frontmatter.title}
         </h1>

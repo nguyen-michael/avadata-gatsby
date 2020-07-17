@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql } from "gatsby";
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
+import Layout from "../components/Layout";
+import Features from "../components/Features";
 
 export const IndexPageTemplate = ({
   image,
@@ -16,7 +16,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image margin-top-0 has-text-centered"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -27,40 +27,30 @@ export const IndexPageTemplate = ({
     >
       <div
         style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
+          display: "flex",
+          height: "150px",
+          lineHeight: "1",
+          justifyContent: "space-around",
+          alignItems: "left",
+          flexDirection: "column",
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen jumbotron-heading"
           style={{
-            boxShadow:
-              '#0757A5 0.5rem 0px 0px, #0757A5 -0.5rem 0px 0px',
-            backgroundColor: '#0757A5',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            lineHeight: "1"
           }}
         >
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen jumbotron-heading"
           style={{
-            boxShadow:
-              '#0757A5 0.5rem 0px 0px, #0757A5 -0.5rem 0px 0px',
-            backgroundColor: '#0757A5',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            lineHeight: "1",
+            padding: "0.25em",
           }}
-          dangerouslySetInnerHTML={{ __html: subheading}}
-        >
-        </h3>
+          dangerouslySetInnerHTML={{ __html: subheading }}
+        ></h3>
       </div>
     </div>
     <section className="section section--gradient">
@@ -68,28 +58,30 @@ export const IndexPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div className="content">
+              <div className="content has-text-centered">
                 <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle" dangerouslySetInnerHTML={{ __html: mainpitch.description }}></h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
+                  <h1 className="title is-size-2">{mainpitch.title}</h1>
+                  <br />
+                  <p
+                    className="subtitle has-text-weight-normal is-4"
+                    dangerouslySetInnerHTML={{ __html: mainpitch.description }}
+                  ></p>
+                  <p className="subtitle has-text-weight-normal is-4">
+                    {description}
+                  </p>
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
-                      Our work →
+                      Our Work →
+                    </Link>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/contact">
+                      Get In Touch With Us →
                     </Link>
                   </div>
                 </div>
@@ -100,7 +92,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
   </div>
-)
+);
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -112,10 +104,10 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
-}
+};
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
@@ -129,8 +121,8 @@ const IndexPage = ({ data }) => {
         intro={frontmatter.intro}
       />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
@@ -138,9 +130,9 @@ IndexPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -169,6 +161,8 @@ export const pageQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
+              publicURL
+              extension
             }
             text
           }
@@ -178,4 +172,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
