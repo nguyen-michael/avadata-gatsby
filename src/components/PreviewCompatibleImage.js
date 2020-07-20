@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Img from "gatsby-image";
+import { isEmpty } from "lodash";
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = { borderRadius: "5px" };
-  const { alt = "", childImageSharp, image} = imageInfo;
-  const { publicURL, extension } = image;
+  const { alt = "", childImageSharp, image } = imageInfo;
+  if (!isEmpty(image)) {
+    var { publicURL, extension } = image;
+  }
 
   if (!!image && !!image.childImageSharp) {
     return (
