@@ -5,7 +5,6 @@ date: 2020-07-07T18:44:53.144Z
 description: In the challenge section of this module, we were tasked with
   breaking down the voter turnout by county, in addition to determining the
   votes by candidate, and the winner of the popular vote.
-featuredpost: false
 featuredimage: /img/avadata-logo-idea.webp
 tags:
   - math

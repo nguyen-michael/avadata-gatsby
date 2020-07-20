@@ -2,7 +2,6 @@
 templateKey: "blog-post"
 title: "Weather Analysis"
 date: 2019-12-20T22:12:03.284Z
-featuredpost: false
 featuredimage: /img/End.png
 description: >-
   In this challenge, we were tasked with using Google Maps API data to generate a travel itinerary.
