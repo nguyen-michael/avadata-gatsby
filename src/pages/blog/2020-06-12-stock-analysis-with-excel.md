@@ -2,7 +2,6 @@
 templateKey: "blog-post"
 title: "Stock Analysis with Excel"
 date: 2020-06-12T22:12:03.284Z
-featuredpost: false
 featuredimage: /img/analysis2018.png
 description: >-
   In this challenge, we were tasked with performing analysis on 12 different stocks. 

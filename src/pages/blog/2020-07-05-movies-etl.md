@@ -2,7 +2,6 @@
 templateKey: "blog-post"
 title: "Movies - Extract, Transform, and Load"
 date: 2020-07-05T22:12:03.284Z
-featuredpost: false
 description: >-
   In this module, we performed the Extract, Transform, and Load (ETL) process on three data sources to generate an SQL database of movies. The movie information and links came from Wikipedia articles (in a JSON format) and the review information came from Kaggle (in CSV format).
 tags:

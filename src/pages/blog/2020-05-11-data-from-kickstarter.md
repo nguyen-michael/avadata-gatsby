@@ -2,7 +2,6 @@
 templateKey: "blog-post"
 title: "Data from Kickstarter"
 date: 2020-05-11T15:04:10.000Z
-featuredpost: true
 featuredimage: /img/outcomes-by-goal.png
 description: >-
   In this analysis, our goal was to help Louise determine important factors that may 
