@@ -111,7 +111,7 @@ const Footer = class extends React.Component {
               </div>
             </div>
             <div className="columns has-text-centered has-text-grey-dark is-size-7">
-              <div class="column">
+              <div className="column">
                 Copyright 2020 AvaData Solutions, Inc. All Rights Reserved.{" "}
                 <span className="attribution-btn" onClick={this.toggleModal}>
                   Attribution Info

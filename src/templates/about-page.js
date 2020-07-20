@@ -4,25 +4,42 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import AboutUsProfile from "../components/AboutUsProfile";
 
-export const AboutPageTemplate = ({ profiles }) => {
+export const AboutPageTemplate = ({ title, profiles, image }) => {
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-offset-1">
-            <div className="section">
-              {profiles.map((profile) => (
-                <AboutUsProfile profile={profile} key={profile.name} />
-              ))}
+    <>
+      <div
+        className="full-width-image-container margin-top-0 has-text-centered"
+        style={{
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
+          backgroundPosition: `top left`,
+          backgroundAttachment: `fixed`,
+        }}
+      >
+        <h1 className="has-text-weight-bold is-size-1 jumbotron-heading">
+          {title}
+        </h1>
+      </div>
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-offset-1">
+              <div className="section">
+                {profiles.map((profile) => (
+                  <AboutUsProfile profile={profile} key={profile.name} />
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
 AboutPageTemplate.propTypes = {
+  title: PropTypes.string,
   profiles: PropTypes.arrayOf(
     PropTypes.shape({
       description: PropTypes.string,
@@ -31,6 +48,7 @@ AboutPageTemplate.propTypes = {
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     })
   ),
+  image: PropTypes.object
 };
 
 const AboutPage = ({ data }) => {
@@ -38,26 +56,10 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <div
-        className="full-width-image-container margin-top-0 has-text-centered"
-        style={{
-          backgroundImage: `url(${
-            !!post.frontmatter.image.childImageSharp
-              ? post.frontmatter.image.childImageSharp.fluid.src
-              : post.frontmatter.image
-          })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-1 jumbotron-heading"
-        >
-          {post.frontmatter.title}
-        </h1>
-      </div>
       <AboutPageTemplate
+        title={post.frontmatter.title}
         profiles={post.frontmatter.profiles}
+        image={post.frontmatter.image}
       />
     </Layout>
   );
