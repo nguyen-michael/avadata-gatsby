@@ -1,9 +1,11 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { Link } from "gatsby";
+import SEO from "../components/SEO";
 
 const NotFoundPage = () => (
   <Layout>
+    <SEO title={`404 | AvaData Solutions, Inc.`} />
     <div
       className="full-page-image margin-top-0"
       style={{
@@ -25,7 +27,7 @@ const NotFoundPage = () => (
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered jumbotron-heading"
           style={{
-            lineHeight: "1"
+            lineHeight: "1",
           }}
         >
           Sorry, that link doesn't exist.{" "}
