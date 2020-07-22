@@ -1,6 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
+import SEO from "../../components/SEO";
 
 function encode(data) {
   return Object.keys(data)
@@ -36,6 +37,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+        <SEO title={`Contact Us | AvaData Solutions, Inc.`} />
         <section className="section">
           <div className="container">
             <div className="content">

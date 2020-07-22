@@ -24,7 +24,7 @@ export default () => (
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen jumbotron-heading"
           style={{
-            lineHeight: "1"
+            lineHeight: "1",
           }}
         >
           Thank you for your interest in AvaData Solutions!
