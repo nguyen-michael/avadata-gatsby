@@ -26,6 +26,6 @@ More words until I save this\
 \
 <!--StartFragment-->
 
-<iframe width="600" height="373.5" src="<https://app.powerbi.com/view?r=eyJrIjoiMzQ1ZTcxNGYtMDE1Yi00NTI3LWE0OGQtZmQzOTMzYTc4YTdhIiwidCI6IjZiMjczY2JlLTU1NDgtNGYyOS04MDliLTgzMmIwYzQ0YTRjNiIsImMiOjF9&embedImagePlaceholder=true&pageName=ReportSection0f2d4c398c3c30381895>" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMzQ1ZTcxNGYtMDE1Yi00NTI3LWE0OGQtZmQzOTMzYTc4YTdhIiwidCI6IjZiMjczY2JlLTU1NDgtNGYyOS04MDliLTgzMmIwYzQ0YTRjNiIsImMiOjF9&embedImagePlaceholder=true&pageName=ReportSection0f2d4c398c3c30381895" frameborder="0" allowFullScreen="true"></iframe>
 
 <!--EndFragment-->
