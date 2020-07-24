@@ -58,12 +58,7 @@ module.exports = {
               destinationDir: "static",
             },
           },
-          {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-              plugins: [`gatsby-remark-responsive-iframe`],
-            },
-          },
+          `gatsby-remark-responsive-iframe`,
         ],
       },
     },
