@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import AboutUsProfile from "../components/AboutUsProfile";
+import SEO from "../components/SEO";
 
 export const AboutPageTemplate = ({ title, profiles, image }) => {
   return (
@@ -56,6 +57,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
+      <SEO title={`About Us | AvaData Solutions, Inc.`} />
       <AboutPageTemplate
         title={post.frontmatter.title}
         profiles={post.frontmatter.profiles}

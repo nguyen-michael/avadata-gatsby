@@ -1,12 +1,13 @@
-import React from 'react'
-
-import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import React from "react";
+import SEO from "../../components/SEO";
+import Layout from "../../components/Layout";
+import BlogRoll from "../../components/BlogRoll";
 
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
+        <SEO title={`Blog | AvaData Solutions, Inc.`} />
         <div
           className="full-width-image-container margin-top-0"
           style={{
@@ -15,9 +16,7 @@ export default class BlogIndexPage extends React.Component {
             backgroundAttachment: `fixed`,
           }}
         >
-          <h1
-            className="has-text-weight-bold is-size-1 has-text-centered jumbotron-heading"
-          >
+          <h1 className="has-text-weight-bold is-size-1 has-text-centered jumbotron-heading">
             Data and the World Around Us
           </h1>
         </div>
@@ -29,6 +28,6 @@ export default class BlogIndexPage extends React.Component {
           </div>
         </section>
       </Layout>
-    )
+    );
   }
 }
