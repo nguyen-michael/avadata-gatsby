@@ -5,10 +5,8 @@ title: The AvaData Team
 image: /img/jumbotron-about.webp
 profiles:
   - image: /img/about-us-ferbo.webp
-    name: |
-      Ferbo Babbage
-    title: |
-      CTO
+    name: Sathvik Aithala
+    title: Founder
     description: >
       Dancing queen, Sweet Caroline, Sweet Home Alabama, Country Roads. Master
       of puppets, symphony of destruction, tornado of souls. Master of puppets,
