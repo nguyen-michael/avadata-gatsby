@@ -104,3 +104,10 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/hide-pages-config.md"
+        label: "Hide Pages"
+        name: "hide-pages"
+        fields:
+          - { label: "Hide Blog Page", name: "hideBlogPage", widget: boolean, default: false}
+          - { label: "Hide About Us Page", name: "hideAboutPage", widget: boolean, default: false}
+          - { label: "Hide Contact Page", name: "hideContactPage", widget: boolean, default: false}
