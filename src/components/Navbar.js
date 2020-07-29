@@ -64,6 +64,7 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered"></div>
             <div className="navbar-end has-text-centered">
+<<<<<<< HEAD
 {/*               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
@@ -73,6 +74,23 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
+=======
+              {!this.props.hidePages.hideBlogPage && (
+                <Link className="navbar-item" to="/blog">
+                  Blog
+                </Link>
+              )}
+              {!this.props.hidePages.hideAboutPage && (
+                <Link className="navbar-item" to="/about">
+                  About Us
+                </Link>
+              )}
+              {!this.props.hidePages.hideContactPage && (
+                <Link className="navbar-item" to="/contact">
+                  Contact
+                </Link>
+              )}
+>>>>>>> 34350c39649b5ecb146a843e4f5151e9f81d767f
             </div>
           </div>
         </div>
