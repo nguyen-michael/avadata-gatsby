@@ -67,50 +67,6 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-<<<<<<< HEAD
-{/*               <div className="column is-3">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link
-                        className="navbar-item has-text-centered"
-                        to="/blog"
-                      >
-                        Blog
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-3">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link
-                        className="navbar-item has-text-centered"
-                        to="/about"
-                      >
-                        About Us
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div> */}
-              <div className="column">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link
-                        className="navbar-item has-text-centered"
-                        to="/contact"
-                      >
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-=======
               {!this.props.hidePages.hideBlogPage && (
                 <div className="column">
                   <section>
@@ -159,7 +115,6 @@ const Footer = class extends React.Component {
                   </section>
                 </div>
               )}
->>>>>>> 34350c39649b5ecb146a843e4f5151e9f81d767f
             </div>
             <div className="columns has-text-centered has-text-grey-dark is-size-7">
               <div className="column">

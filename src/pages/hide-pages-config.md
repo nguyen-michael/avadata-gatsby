@@ -1,6 +1,6 @@
 ---
 type: cms-config
-hideBlogPage: false
-hideAboutPage: false
+hideBlogPage: true
+hideAboutPage: true
 hideContactPage: false
 ---
