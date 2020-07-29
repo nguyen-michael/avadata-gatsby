@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, StaticQuery, graphql } from "gatsby";
 import logo from "../img/logo-extended.svg";
 
 const AttributionModal = ({ children, closeModal, modalState, title }) => {
@@ -56,7 +56,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div style={{ maxWidth: "100vw" }} className="columns">
-              <div className="column is-3">
+              <div className="column">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
@@ -67,48 +67,54 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-3">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link
-                        className="navbar-item has-text-centered"
-                        to="/blog"
-                      >
-                        Blog
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-3">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link
-                        className="navbar-item has-text-centered"
-                        to="/about"
-                      >
-                        About Us
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-3">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link
-                        className="navbar-item has-text-centered"
-                        to="/contact"
-                      >
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
+              {!this.props.hidePages.hideBlogPage && (
+                <div className="column">
+                  <section>
+                    <ul className="menu-list">
+                      <li>
+                        <Link
+                          className="navbar-item has-text-centered"
+                          to="/blog"
+                        >
+                          Blog
+                        </Link>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              )}
+              {!this.props.hidePages.hideAboutPage && (
+                <div className="column">
+                  <section>
+                    <ul className="menu-list">
+                      <li>
+                        <Link
+                          className="navbar-item has-text-centered"
+                          to="/about"
+                        >
+                          About Us
+                        </Link>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              )}
+              {!this.props.hidePages.hideContactPage && (
+                <div className="column">
+                  <section>
+                    <ul className="menu-list">
+                      <li>
+                        <Link
+                          className="navbar-item has-text-centered"
+                          to="/contact"
+                        >
+                          Contact
+                        </Link>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              )}
             </div>
             <div className="columns has-text-centered has-text-grey-dark is-size-7">
               <div className="column">
@@ -149,8 +155,8 @@ const Footer = class extends React.Component {
           </p>
           <p>
             Website Development by Michael Nguyen at{" "}
-            <a href="https://nguyenmichael.dev">nguyenmichael.dev</a>{" "}
-            and on <a href="https://github.com/nguyen-michael">Github</a>
+            <a href="https://nguyenmichael.dev">nguyenmichael.dev</a> and on{" "}
+            <a href="https://github.com/nguyen-michael">Github</a>
           </p>
         </AttributionModal>
       </footer>
